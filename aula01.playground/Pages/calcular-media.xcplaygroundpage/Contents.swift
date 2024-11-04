@@ -1,7 +1,9 @@
-//: [Previous](@previous)
+var aluno1: Double = 8.5
+var aluno2: Double = 5
+var aluno3: Double = 7.5
 
-import Foundation
+var mediaDasNotas: Double
 
-var greeting = "Hello, playground"
+mediaDasNotas = (aluno1 + aluno2 + aluno3) / 3
 
-//: [Next](@next)
+print("A média dos 3 alunos é: \(mediaDasNotas)")
