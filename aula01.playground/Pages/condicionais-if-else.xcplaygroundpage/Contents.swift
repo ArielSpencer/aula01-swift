@@ -30,3 +30,6 @@ if numero1 > numero2 {
 } else {
     print("O número 1 é igual ao número 2.")
 }
+
+var numero3 = 35
+idade > 18 ? print("O número \(numero3) é maior que 18") : print("O número \(numero3) é menor que 18")
