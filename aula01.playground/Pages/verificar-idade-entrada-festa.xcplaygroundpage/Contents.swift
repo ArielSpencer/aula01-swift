@@ -1,7 +1,4 @@
-//: [Previous](@previous)
+var idade: Int = 18
+var estaComRG: Bool = true
 
-import Foundation
-
-var greeting = "Hello, playground"
-
-//: [Next](@next)
+idade >= 18 && estaComRG ? print("Pode entrar.") : print("Não pode entrar!")
