@@ -56,3 +56,10 @@ while count4 <= 10 {
     }
     print(count4)
 }
+
+print("challenge:")
+for i in 1...10 {
+    if i.isMultiple(of: 2) {
+        print(i)
+    }
+}
