@@ -32,3 +32,12 @@ func verificaAdulto(_ idade: Int) -> Bool {
 }
 verificaAdulto(32)
 verificaAdulto(16)
+
+// e.g. copy-in copy-out with inout
+func somaNumero(_ numero: inout Int) {
+    numero += 1
+    print("Resultado Numero Primeiro Parâmetro: \(numero)")
+}
+var valor = 10
+somaNumero(&valor)
+print("Resultado Valor Segundo Parâmetro: \(valor)")
