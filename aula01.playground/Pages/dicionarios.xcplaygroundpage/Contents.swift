@@ -35,3 +35,19 @@ for nome in pontuacao.keys {
 for pontos in pontuacao.values {
     print(pontos)
 }
+
+// Challenge 1:
+
+func calcularMedia(_ notas: [Double]) -> Double {
+    var somaNotas = 0.0
+    let quantidadeNotas = notas.count
+    for nota in notas {
+        somaNotas += nota
+    }
+    return somaNotas / Double(quantidadeNotas)
+}
+
+let notas = [8.5, 10, 9.3, 7.5, 8.7]
+let mediaNotas = calcularMedia(notas)
+
+print("A média das notas é \(mediaNotas).")
