@@ -23,3 +23,15 @@ print(pontuacao)
 pontuacao["ArielSpencer"] = nil
 pontuacao.removeValue(forKey: "AnaMaria")
 print(pontuacao)
+
+for (nome, pontuacao) in pontuacao {
+    print("O usuário \(nome) fez \(pontuacao).")
+}
+
+for nome in pontuacao.keys {
+    print(nome)
+}
+
+for pontos in pontuacao.values {
+    print(pontos)
+}
